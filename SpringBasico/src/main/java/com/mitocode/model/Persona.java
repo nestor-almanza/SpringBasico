@@ -1,8 +1,15 @@
 package com.mitocode.model;
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class Persona {
+	
+	/*ya no utilizamos el *.xml, se usa el bean con valores por defecto*/
+	@Value("1")
 	private int id;
+	@Value("Alexis")
 	private String nombres;
+	@Value("Adalid")
 	private String apellidos;
 	
 	public int getId() {
