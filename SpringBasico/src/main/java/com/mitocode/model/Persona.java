@@ -12,12 +12,6 @@ public class Persona {
 	@Value("Adalid")
 	private String apellidos;
 	
-	public Persona(int id, String nombres, String apellidos) {
-		super();
-		this.id = id;
-		this.nombres = nombres;
-		this.apellidos = apellidos;
-	}
 	
 	public int getId() {
 		return id;
