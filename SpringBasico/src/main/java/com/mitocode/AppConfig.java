@@ -14,6 +14,6 @@ public class AppConfig {
 	/*Esto es un bean , un objeto inyectado por el container de Spring , se usa la anotaciòn @Ben*/
 	@Bean(name="persona")
 	public Persona persona(){
-		return new Persona();
+		return new Persona(0, null, null);
 	}
 }
